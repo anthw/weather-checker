@@ -1,0 +1,66 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.8rem;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.page-title {
+  color: rgb(33, 33, 33);
+  font-weight: 400;
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: rgb(67, 122, 167);
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav li {
+  margin-right: 10px;
+}
+
+.nav li:last-child {
+  margin-right: 0px;
+}
+
+.about-image {
+  width: 200px;
+}
+
+input {
+  font-size: 1.8rem;
+  padding: 5px 10px;
+  border: 1px solid #bbb;
+}
+
+button {
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid rgb(15, 20, 39);
+  padding: 5px 10px;
+  background-color: rgb(63, 89, 146);
+}
